@@ -1,7 +1,19 @@
 body {
-    width: 50%;
+    width: 30%;
     padding: 30px;
     margin: 30px auto;
+}
+
+body {
+   
+    border: 3px solid #dadde1;
+    border-radius: 15px;
+}
+
+h1,
+p,
+ul {
+    color: #8f8d91;
 }
 
 p {
