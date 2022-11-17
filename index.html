@@ -15,23 +15,25 @@
     <input type="search" placeholder="Search city...">
    <button class="btn btn-primary" type="submit">Search</button>
  <div class="city-info">
-   <h1>New York</h1> 
-  <p>Last updated: Tuesday 14:44</p>
-  <p>Overcast clouds</p> 
+   <h1 id="city"></h1> 
+   <ul>
+  <li>Last updated: Tuesday 14:44</li>
+  <li id="description"></li> 
+  </ul>
   </div>
   <br />
   <div class="weather-temperature">
     <img src="https://duckduckgo.com/assets/weather/icons/clear-day.svg" width="100" height="100"/>
-<strong>12</strong><span class="units">°C | <a href="#">°F</a> </span> 
+<strong id="temperature"></strong><span class="units">°C | <a href="#">°F</a> </span> 
 </div>
     <ul>
-    <li>Humidity: 82%</li>
-    <li>Wind: 6 mph</li>
+    <li>Humidity: <span id="humidity"></span>%</li>
+    <li>Wind: <span id="wind"></span> mph</li>
   </ul>
   </div>
   </div>
   </div> 
 </div>
-<script src="scripts.js"></script>
+<script src="src/scripts.js"></script>
 </body>
 </html>
