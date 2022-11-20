@@ -27,7 +27,8 @@ ul {
     position: relative;
 }
 
-li {
+
+li:first-letter {
     text-transform: capitalize;
 }
 
