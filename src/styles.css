@@ -1,5 +1,5 @@
 body {
-    width: 50%;
+    width: 30%;
     padding: 30px;
     margin: 30px auto;
 }
@@ -9,13 +9,17 @@ body {
     border: 3px solid #dadde1;
     border-radius: 15px;
     box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+}
+
+html {
+    background: #F9F7FE;
 }
 
 h1,
 p,
 ul {
     color: #8f8d91;
-    margin-top: 20px;
 }
 
 p {
@@ -28,8 +32,9 @@ a {
 
 ul {
     list-style-type: none;
-    text-align: left;
-    position: relative;
+    margin: 0;
+    padding: 0;
+   
 }
 
 
@@ -65,5 +70,5 @@ li:first-letter {
 }
 
 .weather-forecast-temperature-min {
-    opacity: 0.5;
+    opacity: 0.6;
 }
